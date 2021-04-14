@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'museosanscyrl';
+	src: url('fonts/MuseoSansCyrl900.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'pt_sans_caption';
+	src: url('fonts/PTSans-CaptionBold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+  }
