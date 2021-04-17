@@ -64,7 +64,7 @@ html,body {
 	top: 13px;
 }
 
-  .logo__diamond_color_orange {
+  .logo__diamond_color {
 	position: absolute;
 	width: 29px;
     height: 29px;
@@ -103,7 +103,7 @@ html,body {
 	font: 700 40px/51px 'pt_sans_caption', arial, helvetica, sans-serif;
 }
 
-  .blockimg {
+  .main__blockimg {
 	position: relative;
     background: url(img/iphonexs.svg) no-repeat 50% 381px,
 	url(img/groupl.svg) no-repeat bottom left,
@@ -151,7 +151,7 @@ html,body {
 	top: 13px;
 }
   
-  .logo__diamond_color_orange {
+  .logo__diamond_color {
 	position: absolute;
 	width: 22px;
 	height: 22px;
@@ -190,7 +190,7 @@ html,body {
 	font: 700 32px/41px 'pt_sans_caption', arial, helvetica, sans-serif;
 }
   
-  .blockimg {
+  .main__blockimg {
 	position: relative;
 	background: url(img/iphonexs-1366.svg) 50% 374px no-repeat,
 	url(img/groupl-1366.svg) left 23px no-repeat,
@@ -238,7 +238,7 @@ html,body {
 	top: 12px;
 }
   
-  .logo__diamond_color_orange {
+  .logo__diamond_color {
 	position: absolute;
 	width: 22px;
 	height: 22px;
@@ -277,7 +277,7 @@ html,body {
 	font: 700 32px/41px 'pt_sans_caption', arial, helvetica, sans-serif;
 }
   
-  .blockimg {
+  .main__blockimg {
 	position: relative;
 	background: url(img/iphonexs-1366.svg) 50% 372px no-repeat,
 	url(img/groupl-1170.svg) left 0 no-repeat,
@@ -324,7 +324,7 @@ html,body {
 	top: 0;
 }
 
-  .logo__diamond_color_orange {
+  .logo__diamond_color {
 	position: absolute;
 	width: 35px;
 	height: 35px;
@@ -391,7 +391,7 @@ html,body {
 	top: 0px;
 }
 
- .logo__diamond_color_orange {
+ .logo__diamond_color {
 	position: absolute;
 	width: 35px;
 	height: 35px;
@@ -430,7 +430,7 @@ html,body {
   opacity: 0;
 }
   
-  .menu__btn {
+  .hamburger-menu__btn {
 	z-index: 2;
 	display: flex;
 	align-items: center;
@@ -440,9 +440,9 @@ html,body {
 	cursor: pointer;
 }
   
-  .menu__btn > span,
-  .menu__btn > span::before,
-  .menu__btn > span::after {
+  .hamburger-menu__btn > span,
+  .hamburger-menu__btn > span::before,
+  .hamburger-menu__btn > span::after {
 	display: block;
 	position: absolute;
 	width: 100%;
@@ -451,17 +451,17 @@ html,body {
 	transition-duration: 0.25s;
 }
   
-  .menu__btn > span::before {
+  .hamburger-menu__btn > span::before {
 	content: '';
 	top: -7px;
 }
   
-  .menu__btn > span::after {
+  .hamburger-menu__btn > span::after {
 	content: '';
 	top: 7px;
 }
   
-  .menu__box {
+  .hamburger-menu__box {
 	z-index: 1;
 	display: block;
 	position: fixed;
@@ -478,7 +478,7 @@ html,body {
 	transition-duration: 0.25s;
 }
   
-  .menu__item_mobile {
+  .hamburger-menu__box__item_mobile {
 	display: block;
 	padding: 12px 24px;
 	color: #000;
@@ -516,7 +516,7 @@ html,body {
     display: none;
 }
   
-  .menu__box {
+  .hamburger-menu__box {
 	display: none;
 }
 }
