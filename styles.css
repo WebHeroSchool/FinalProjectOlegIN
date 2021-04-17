@@ -403,8 +403,8 @@ html,body {
 	top: 3px;
 }
   
-  .hamburger-menu__box {
-   display: none;
+  .menu {
+	display: none;
 }
 
   .main {
@@ -491,21 +491,21 @@ html,body {
     cursor: default;
 }
   
-#menu__toggle:checked ~ .menu__btn > span {
+#menu__toggle:checked ~ .hamburger-menu__btn > span {
   transform: rotate(45deg);
 }
   
-#menu__toggle:checked ~ .menu__btn > span::before {
+#menu__toggle:checked ~ .hamburger-menu__btn > span::before {
   top: 0;
   transform: rotate(0);
 }
   
-#menu__toggle:checked ~ .menu__btn > span::after {
+#menu__toggle:checked ~ .hamburger-menu__btn > span::after {
   top: 0;
   transform: rotate(90deg);
 }
   
-#menu__toggle:checked ~ .menu__box {
+#menu__toggle:checked ~ .hamburger-menu__box {
   visibility: visible;
   left: 0;
 }
