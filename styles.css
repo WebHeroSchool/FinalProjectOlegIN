@@ -192,7 +192,7 @@ html,body {
   
   .main__blockimg {
 	position: relative;
-	background: url(img/iphonexs-1366.svg) 50% 374px no-repeat,
+	background: url(img/iphonexs-1366.png) 50% 374px no-repeat,
 	url(img/groupl-1366.svg) left 23px no-repeat,
 	url(img/apple.png) 43.5% 276px/10% no-repeat,
 	url(img/googl.png) 56.4% 276px/10% no-repeat,
@@ -279,7 +279,7 @@ html,body {
   
   .main__blockimg {
 	position: relative;
-	background: url(img/iphonexs-1366.svg) 50% 372px no-repeat,
+	background: url(img/iphonexs-1366.png) 50% 372px no-repeat,
 	url(img/groupl-1170.svg) left 0 no-repeat,
 	url(img/apple.png) 42.4% 277px/11.4% no-repeat,
 	url(img/googl.png) 57.7% 277px/11.4% no-repeat,
