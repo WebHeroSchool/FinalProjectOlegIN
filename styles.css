@@ -1,16 +1,197 @@
-  .menu__item {
-    font: 700 18px/23px 'pt_sans_caption', arial, helvetica, sans-serif;
-    color: #000;
-    text-decoration: none;
+html,body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-  .main__title {
-	font: 700 40px/51px 'pt_sans_caption', arial, helvetica, sans-serif;
+  .menu__item::after {
+	position: absolute;
+    left: -1px;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: #e89c38;
+    opacity: 0;
+    transition: opacity 0.5s, width 0.5s;
 }
 
-  .hamburger-menu__box__item_mobile {
+  .menu__item:hover,
+  .menu__item:active {
+	opacity: 0.5;
+}
+
+  .menu__item:hover::after {
+    opacity: 1;
+    width: 100%;
+}
+
+  .a:hover {
+    cursor: default;
+}
+
+/* разрешение от 1730 */
+@media (min-width: 1730px) {
+	.wrapper {
+	  width: 85%;
+	  height: 100px;
+	  margin-top: 31px;
+	  padding-left: 10vw;
+  }
+  
+	.header {
+	  display: flex;
+	  position: relative;
+	  justify-content: space-between;
+	  margin-bottom: 0;
+  }
+  
+	.logo__img {
+	  width: 150px;
+	  height: 43px;
+	  background: url(img/stack.svg) 90% 15px no-repeat;
+  }
+  
+	.logo__diamond {
+	  position: absolute;
+	  width: 29px;
+	  height: 29px;
+	  opacity: 0.5;
+	  border-radius: 5px;
+	  background: #ffbe4d;
+	  transform: rotate(135deg);
+	  left: 5px;
+	  top: 13px;
+  }
+  
+	.logo__diamond_color {
+	  position: absolute;
+	  width: 29px;
+	  height: 29px;
+	  opacity: 0.5;
+	  border-radius: 5px;
+	  background: #e89c38;
+	  transform: rotate(135deg);
+	  left: 10px;
+	  top: 16px;
+  }
+  
+	 .menu {
+	  display: flex;
+	  align-items: center;
+	  margin-right: 100px;
+  }
+  
+	.menu__item {
+	  position: relative;
+	  margin-top: 8%;
+	  margin-right: 24px;
+	  font: 700 18px/23px 'pt_sans_caption', arial, helvetica, sans-serif;
+	  color: #000;
+	  text-decoration: none;
+	  transition: opacity 0.5s;
+  }
+  
+	.menu__item:last-child {
+	  margin-right: 1px;
+  }
+  
+	.main__title {
+	  text-align: center;
+	  margin: 58px 0 34px 27.5%;
+	  width: 45vw;
+	  font: 700 40px/51px 'pt_sans_caption', arial, helvetica, sans-serif;
+  }
+  
+	.main__blockimg {
+	  position: relative;
+	  background: url(img/iphonexs.png) no-repeat 50% 381px,
+	  url(img/groupl.svg) no-repeat bottom left,
+	  url(img/apple.png) no-repeat 43.4% 223px,
+	  url(img/googl.png) no-repeat 56.6% 223px,
+	  url(img/groupr.svg) no-repeat bottom right;
+	  box-sizing: border-box;
+	  width: 100%;
+	  height: 850px;
+	  bottom: 199px;
+  }
+  }
+
+/* разрешение от 1171 до 1729 */
+@media (min-width: 1171px) and (max-width: 1729px) {
+	.wrapper {
+	  width: 80%;
+	  height: 100px;
+	  margin-top: 28px;
+	  padding-left: 16vw;
+  }
+	
+	.header {
+	  display: flex;
+	  position: relative;
+	  justify-content: space-between;
+	  margin-bottom: 0;
+}
+}
+
+/* разрешение от 768 до 1170 */
+@media (min-width: 768px) and (max-width: 1170px) {
+	.wrapper {
+	  width: 85%;
+	  height: 100px;
+	  margin-top: 29px;
+	  padding-left: 10vw;
+  }
+	
+	.header {
+	  display: flex;
+	  position: relative;
+	  justify-content: space-between;
+	  margin-bottom: 0;
+}
+}
+
+/* adoptation for mobile 401-767 */
+@media (min-width: 401px) and (max-width: 767px) {
+	.wrapper {
+	  width: 70%;
+	  margin-left: auto;
+	  margin-right: 7%;
+  }
+		 
+	.header {
+	  display: flex;
+	  position: relative;
+	  justify-content: space-between;
+	  margin: 44% 0 0 18%;
+  }
+
+   .hamburger-menu__box__item_mobile {
 	color: #000;
 	font: 300 30px/36px 'museosanscyrl', arial, helvetica, sans-serif;
 	text-decoration: none;
+}
+}
+
+/* adoptation for mobile */
+@media (max-width: 400px) {
+	.wrapper {
+	   width: 70%;
+	   margin-left: auto;
+	   margin-right: 11.6%;
+   }
+		  
+	 .header {
+	   display: flex;
+	   position: relative;
+	   justify-content: space-between;
+	   margin: 44% 0 0 9%;
+}
+
+   .hamburger-menu__box__item_mobile {
+	color: #000;
+	font: 300 30px/36px 'museosanscyrl', arial, helvetica, sans-serif;
+	text-decoration: none;
+}
 }
   
