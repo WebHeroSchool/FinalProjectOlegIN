@@ -121,7 +121,7 @@ html,body {
   .main__button4,
   .main__button5,
   .main__button6 {
-  display: none;
+    display: none;
 }
 
   .main__blockimg {
@@ -227,7 +227,7 @@ html,body {
   .main__button2,
   .main__button5,
   .main__button6 {
-  display: none;
+    display: none;
 }
 
   .main__blockimg {
@@ -308,7 +308,6 @@ html,body {
 	margin-right: 0;
 }
 
-
   .main {
 	position: relative;
 	box-sizing: border-box;
@@ -340,7 +339,7 @@ html,body {
   .main__button2,
   .main__button5,
   .main__button6 {
-  display: none;
+    display: none;
 }
 
   .main__blockimg {
@@ -354,7 +353,6 @@ html,body {
     bottom: 279px;
 }
 }  
-
 
 /* adoptation for mobile 401-767 */
 @media (min-width: 401px) and (max-width: 767px) {
@@ -424,7 +422,7 @@ html,body {
   .main__button2,
   .main__button3,
   .main__button4 {
-  display: none;
+    display: none;
 }
 	  
   .main__button5 {
@@ -496,7 +494,7 @@ html,body {
   .main__button2,
   .main__button3,
   .main__button4 {
-  display: none;
+    display: none;
 }
 
   .main__button5 {
@@ -609,5 +607,10 @@ html,body {
   
   .hamburger-menu__box {
 	display: none;
+}
+
+  .main__button5,
+  .main__button6 {
+    display: none;
 }
 }
