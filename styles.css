@@ -194,4 +194,15 @@ html,body {
 	text-decoration: none;
 }
 }
+
+/* скрывает бургер-меню на высоком разрешении */
+@media (min-width: 767px) {
+	.hamburger-menu {
+	  display: none;
+  }
+	
+	.hamburger-menu__box {
+	  display: none;
+  }
+  }
   
