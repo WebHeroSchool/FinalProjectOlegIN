@@ -25,13 +25,9 @@ html,body {
     opacity: 1;
     width: 100%;
 }
-
+  .main__buttons:hover,
   .a:hover {
 	cursor: default;  
-}
-
-  .main__buttons:hover {
-    cursor: default;
 }
 
   .main__buttons {
