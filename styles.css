@@ -26,13 +26,25 @@ html,body {
     width: 100%;
 }
 
-  .a:hover {
+  .a:hover,
+  .main__buttons:hover {
     cursor: default;
 }
 
   .main__buttons {
+	z-index: 3;
 	text-align: center;
 }
+
+  .main__buttons:hover,
+  .main__buttons:active {
+	opacity: 0.5;
+}
+
+  .main__buttons:hover::after {
+	opacity: 1;
+}
+
 
 /* разрешение от 1730 */
 @media (min-width: 1730px) {
@@ -100,6 +112,12 @@ html,body {
     margin-right: 1px;
 }
 
+.main {
+	position: relative;
+	width: 100%;
+	background: url(img/iphonexs.png) center 53% no-repeat;
+}
+
   .main__title {
 	text-align: center;
 	margin: 58px 0 58px 27.5%;
@@ -125,9 +143,9 @@ html,body {
 }
 
    .main__blockimg {
+	z-index: -1;
 	position: relative;
-	background: url(img/iphonexs.png) no-repeat 50% 384px,
-	url(img/groupl.svg) no-repeat bottom left,
+	background: url(img/groupl.svg) no-repeat bottom left,
 	url(img/groupr.svg) no-repeat bottom right;
     box-sizing: border-box;
     width: 100%;
@@ -227,6 +245,7 @@ html,body {
 }
 
   .main__blockimg {
+	z-index: -1;
 	position: relative;
 	box-sizing: border-box;
 	background: url(img/iphonexs-1366.png) 50% 376px no-repeat,
@@ -329,6 +348,7 @@ html,body {
 }
 
   .main__blockimg {
+	z-index: -1;
 	position: relative;
 	box-sizing: border-box;
 	background: url(img/iphonexs-1366.png) 50% 374px no-repeat,
@@ -404,14 +424,12 @@ html,body {
 	font: bold 24px/31px 'pt_sans_caption', arial, helvetica, sans-serif;
 }
 
-.main__button {
+  .main__button {
 	background: url(img/apple-mob.png) no-repeat;
 	display: inline-block;
 	vertical-align: top;
-    width: 194px;
-	height: 64px;
-	margin-left: 0px;
-	margin-right: 0px;
+    width: 108px;
+	height: 36px;
 }
 
   .main__button2 {
@@ -420,8 +438,6 @@ html,body {
 	vertical-align: top;
     width: 108px;
 	height: 36px;
-	margin-left: 0px;
-	margin-right: 0px;
 }
 }
 
@@ -522,7 +538,7 @@ html,body {
 	position: fixed;
 	top: 62px;
 	width: 25px;
-	cursor: pointer;
+	cursor: default;
 }
   
   .hamburger-menu__btn > span,
