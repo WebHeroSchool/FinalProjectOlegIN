@@ -1,9 +1,9 @@
 html,body {
-	margin: 0;
-	padding: 0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
   .menu__item::after {
@@ -27,6 +27,7 @@ html,body {
     opacity: 1;
     width: 100%;
 }
+
   .main__buttons:hover,
   .a:hover {
 	cursor: default;  
