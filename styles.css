@@ -26,7 +26,10 @@ html,body {
     width: 100%;
 }
 
-  .a:hover,
+  .a:hover {
+	cursor: default;  
+}
+
   .main__buttons:hover {
     cursor: default;
 }
