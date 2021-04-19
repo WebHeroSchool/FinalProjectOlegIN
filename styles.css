@@ -238,7 +238,7 @@ html,body {
 }
 
   .main__blockimg {
-	z-index: -1;
+    z-index: -1;
 	position: relative;
 	box-sizing: border-box;
 	background: url(img/iphonexs-1366.png) 50% 376px no-repeat,
