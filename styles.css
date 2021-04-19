@@ -37,9 +37,9 @@ html,body {
     text-align: center;
 }
 
-.main__button:hover,
-.main__button:active {
-  opacity: 0.5;
+  .main__button:hover,
+  .main__button:active {
+    opacity: 0.5;
 }
 
 .main__button:hover::after {
