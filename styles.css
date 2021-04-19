@@ -30,12 +30,11 @@ html,body {
 
   .main__buttons:hover,
   .a:hover {
-	cursor: default;  
+    cursor: default;
 }
 
   .main__buttons {
-	z-index: 3;
-	text-align: center;
+    text-align: center;
 }
 
   .main__button:hover,
