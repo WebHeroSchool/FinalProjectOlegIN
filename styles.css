@@ -126,7 +126,7 @@ html,body {
 }
 
   .main__button {
-	background: url(img/apple.png) no-repeat;
+    background: url(img/apple.png) no-repeat;
 	display: inline-block;
 	vertical-align: top;
     width: 194px;
