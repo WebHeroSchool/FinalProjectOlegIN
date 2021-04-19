@@ -368,7 +368,7 @@ html,body {
 	justify-content: space-between;
 	margin: 44% 0 0 18%;
 }
-  	 
+
   .logo__img {
     width: 200px;
 	height: 40px;
@@ -416,6 +416,12 @@ html,body {
 	width: 274px;
 	height: 94px;
 	font: bold 24px/31px 'pt_sans_caption', arial, helvetica, sans-serif;
+}
+
+
+  .hidemobile {
+	visibility: hidden;
+	display: none;
 }
 
   .main__button1,
@@ -488,6 +494,11 @@ html,body {
 	width: 100%;
 	height: 483px;
 	background: url(img/iphonexs-mob.png) bottom center no-repeat;
+}
+
+  .hidemobile {
+	visibility: hidden;
+	display: none;
 }
 
   .main__button1,
