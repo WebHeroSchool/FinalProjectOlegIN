@@ -1,9 +1,9 @@
 html,body {
-  margin: 0;
-  padding: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
   .menu__item::after {
@@ -41,7 +41,7 @@ html,body {
   opacity: 0.5;
 }
 
-  .main__button:active {
+.main__button:active {
     opacity: 0.5;
 }
 
@@ -340,7 +340,7 @@ html,body {
 }
 
   .main__blockimg {
-	z-index: -1;
+    z-index: -1;
 	position: relative;
 	box-sizing: border-box;
 	background: url(img/iphonexs-1366.png) 50% 374px no-repeat,
