@@ -154,8 +154,8 @@ html,body {
 }
 }
 
-/* разрешение от 1171 до 1729 */
-@media (min-width: 1171px) and (max-width: 1729px) {
+/* разрешение от 1172 до 1729 */
+@media (min-width: 1172px) and (max-width: 1729px) {
   .wrapper {
 	width: 80%;
 	height: 100px;
@@ -253,8 +253,8 @@ html,body {
 }
 }  
 
-/* разрешение от 768 до 1170 */
-@media (min-width: 768px) and (max-width: 1170px) {
+/* разрешение от 768 до 1171 */
+@media (min-width: 768px) and (max-width: 1171px) {
   .wrapper {
 	width: 85%;
 	height: 100px;
@@ -352,8 +352,8 @@ html,body {
 }
 }  
 
-/* adoptation for mobile 401-767 */
-@media (min-width: 401px) and (max-width: 767px) {
+/* adoptation for mobile 401-768 */
+@media (min-width: 401px) and (max-width: 768px) {
   .wrapper {
 	width: 70%;
 	margin-left: auto;
