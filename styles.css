@@ -137,11 +137,11 @@ html,body {
 
    .main__blockimg {
     z-index: -1;
-	position: fixed;
+    position: fixed;
     background:
-	url(img/iphonexs.png) center 100% no-repeat,
-	url(img/groupl.svg)  left 1px no-repeat,
-	url(img/groupr.svg) right 1px no-repeat;
+      url(img/iphonexs.png) center 100% no-repeat,
+      url(img/groupl.svg)  left 1px no-repeat,
+      url(img/groupr.svg) right 1px no-repeat;
     box-sizing: border-box;
     width: 100%;
     height: 974px;
