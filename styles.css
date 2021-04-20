@@ -253,8 +253,8 @@ html,body {
 }
 }  
 
-/* разрешение от 768 до 1171 */
-@media (min-width: 768px) and (max-width: 1171px) {
+/* разрешение от 769 до 1171 */
+@media (min-width: 769px) and (max-width: 1171px) {
   .wrapper {
 	width: 85%;
 	height: 100px;
@@ -347,8 +347,8 @@ html,body {
 	url(img/groupl-1170.svg) left 0 no-repeat,
 	url(img/groupr-1170.svg) right 0 no-repeat;
     width: 100%;
-    height: 800px;
-    bottom: 321px;
+    height: 974px;
+    bottom: 0;
 }
 }  
 
