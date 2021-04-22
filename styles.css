@@ -125,6 +125,7 @@ html,body {
   .main__button {
     background: url(img/apple.png) no-repeat;
 	display: inline-block;
+	justify-content: center;
 	vertical-align: top;
     width: 194px;
 	height: 64px;
@@ -135,13 +136,13 @@ html,body {
 	margin-left: 30.5px;
 }
 
-.main__button-phone {
+  .main__button-phone {
 	background:url(img/iphonexs.png) no-repeat;
 	position: absolute;
 	top: 52.3%;
-	right: 38.7%;
-	width: 460px;
-    height: 468px;
+	right: 37.6vw;
+	min-width: 25vw;
+    height: 851px;
 }
 
    .main__blockimg {
@@ -157,8 +158,8 @@ html,body {
 }
 }
 
-/* разрешение от 1172 до 1919 */
-@media (min-width: 1172px) and (max-width: 1919px) {
+/* разрешение от 1171 до 1919 */
+@media (min-width: 952px) and (max-width: 1919px) {
   .wrapper {
 	width: 80%;
 	height: 100px;
@@ -234,7 +235,7 @@ html,body {
 	background: url(img/apple-1366.png) no-repeat;
 	display: inline-block;
 	vertical-align: top;
-    width: 134px;
+    min-width: 134px;
 	height: 44px;
 }
 
@@ -247,9 +248,9 @@ html,body {
 	background:url(img/iphonexs-1366.png) no-repeat;
 	position: absolute;
 	top: 49%;
-	right: 38%;
-	width: 360px;
-    height: 390px;
+	right: 37.3vw;
+	min-width: 27vw;
+    height: 667px;
 }
 
   .main__blockimg {
@@ -265,8 +266,8 @@ html,body {
 }
 }  
 
-/* разрешение от 769 до 1171 */
-@media (min-width: 769px) and (max-width: 1171px) {
+/* разрешение от 952 до 1170 */
+@media (min-width: 952px) and (max-width: 1170px) {
   .wrapper {
 	width: 85%;
 	height: 100px;
@@ -341,23 +342,21 @@ html,body {
   .main__button {
 	background: url(img/apple-1366.png) no-repeat;
 	display: inline-block;
-	vertical-align: top;
-    width: 134px;
+	min-width: 12.3vw;
 	height: 44px;
 }
 
   .main__button2 {
-	background: url(img/google-1366.png) no-repeat;
-	margin-left: 20px;
+	background: url(img/google-1366.png) 10px no-repeat;
 }
 
   .main__button-phone {
 	background:url(img/iphonexs-1366.png) no-repeat;
 	position: absolute;
-	top: 49%;
-	right: 36%;
-	width: 360px;
-    height: 390px;
+	top: 32vw;
+	right: 18.8vw;
+	width: 48vw;
+    height: 667px;
 }
 
   .main__blockimg {
@@ -365,13 +364,119 @@ html,body {
 	position: absolute;
 	box-sizing: border-box;
 	background:
-	  url(img/groupl-1170.svg) left 0 no-repeat,
-	  url(img/groupr-1170.svg) right 0 no-repeat;
+	  url(img/groupl-1170.svg) left no-repeat,
+	  url(img/groupr-1170.svg) right no-repeat;
     width: 100%;
     height: 768px;
     bottom: 0;
 }
 } 
+
+/* разрешение от 769 до 951 */
+@media (min-width: 769px) and (max-width: 951px) {
+	.wrapper {
+	  width: 85%;
+	  height: 100px;
+	  margin-top: 29px;
+	  padding-left: 10vw;
+  }
+	
+	.header {
+	  display: flex;
+	  position: relative;
+	  justify-content: space-between;
+	  margin-bottom: 0;
+  }
+	
+	.logo__img {
+	  width: 117px;
+	  height: 40px;
+	  background: url(img/stack.svg) 100% 15px/59% no-repeat;
+  }
+	
+	.logo__diamond {
+	  position: absolute;
+	  width: 22px;
+	  height: 22px;
+	  opacity: 0.5;
+	  border-radius: 5px;
+	  background: #ffbe4d;
+	  transform: rotate(135deg);
+	  left: 9px;
+	  top: 12px;
+  }
+	
+	.logo__diamond_color {
+	  position: absolute;
+	  width: 22px;
+	  height: 22px;
+	  opacity: 0.5;
+	  border-radius: 5px;
+	  background: #e89c38;
+	  transform: rotate(135deg);
+	  left: 12px;
+	  top: 16px;
+  }
+	
+	.menu {
+	  display: flex;
+	  align-items: center;
+	  margin-bottom: 1px;
+  }
+	
+	.menu__item {
+	  position: relative;
+	  margin-top: 8.3%;
+	  margin-right: 22px;
+	  font: 700 14px/18px 'pt_sans_caption', arial, helvetica, sans-serif;
+	  color: #000;
+	  text-decoration: none;
+	  transition: opacity 0.5s;
+  }
+  
+	.menu__item:last-child {
+	  margin-right: 0;
+  }
+  
+   .main__title {
+	text-align: center;
+    margin: 0 17vw 5vw;
+    width: 65vw;
+    font: 700 22px/23px 'pt_sans_caption', arial, helvetica, sans-serif;
+}
+  
+	.main__button {
+	  background: url(img/apple-1366.png) no-repeat;
+	  display: inline-block;
+	  width: 20vw;
+	  height: 44px;
+  }
+  
+	.main__button2 {
+	  background: url(img/google-1366.png) 10px no-repeat;
+  }
+  
+	.main__button-phone {
+	  background:url(img/iphonexs-1366.png) no-repeat;
+	  position: absolute;
+	  top: 50vw;
+	  right: 28vw;
+	  min-width: 48vw;
+	  height: 400px;
+  }
+  
+	.main__blockimg {
+	  z-index: -1;
+	  position: absolute;
+	  box-sizing: border-box;
+	  background:
+		url(img/groupl-1170.svg) left bottom/30% no-repeat,
+		url(img/groupr-1170.svg) right bottom/30% no-repeat;
+	  width: 100%;
+	  height: 768px;
+	  bottom: 0;
+  }
+  } 
 
 /* adoptation for mobile 549-768 */
 @media (min-width: 549px) and (max-width: 768px) {
@@ -669,14 +774,10 @@ html,body {
 	font: bold 24px/31px 'pt_sans_caption', arial, helvetica, sans-serif;
 }
 
-  .main__button {
-	position: relative;
+.main__button {
 	background: url(img/apple-mob.png) no-repeat;
-	left: 0%;
-	padding-right: 1.1%;
 	display: inline-block;
-	vertical-align: top;
-    width: 108px;
+	width: 30vw;
 	height: 36px;
 }
 
@@ -685,11 +786,10 @@ html,body {
 }
 
   .main__button-phone {
-    position: absolute;
-	margin-left: 10px;
-	width: 317px;
-    height: 549px;
-	background:	url(img/iphonexs-mob.png) 2vw 35px no-repeat;
+	background:url(img/iphonexs-mob.png) 0 no-repeat;
+	position: relative;
+	width: 89vw;
+    height: 280px;
 }
 }
 
@@ -743,34 +843,32 @@ html,body {
 }
 	
   .main__title {
-    margin: 7vw 0 5vw 6vw;
+    margin: 9vw;
     text-align: center;
-    width: 274px;
+    width: 80vw;
     height: 94px;
-    font: bold 24px/31px 'pt_sans_caption', arial, helvetica, sans-serif;
+    font: bold 19px/21px 'pt_sans_caption', arial, helvetica, sans-serif;
 }
-	
-  .main__button {
-    position: relative;
-    background: url(img/apple-mob.png) no-repeat;
-    left: 0%;
-    margin-right: 1.1%;
-    display: inline-block;
-    vertical-align: top;
-    width: 108px;
-    height: 36px;
+
+.main__button {
+	background: url(img/apple-mob.png) no-repeat;
+	display: inline-block;
+	width: 35vw;
+	height: 36px;
 }
-	
+
   .main__button2 {
-    background: url(img/google-mob.png) no-repeat;
+	background: url(img/google-mob.png) no-repeat;
 }
-	
+
   .main__button-phone {
-    width: 275px;
-    height: 549px;
-	background:	url(img/iphonexs-mob.png) 10px 15vw/90% no-repeat;
-}
-} 
+	background:url(img/iphonexs-mob.png) 5vw/90% no-repeat;
+	position: relative;
+	width: 82vw;
+    height: 280px;
+}	
+}	
+ 
 
 /* бургер-меню */
 #menu__toggle {
