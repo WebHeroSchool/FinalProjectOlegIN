@@ -142,7 +142,7 @@ html,body {
 	top: 52.3%;
 	right: 37.6vw;
 	min-width: 25vw;
-    height: 851px;
+    height: 485px;
 }
 
    .main__blockimg {
@@ -250,7 +250,7 @@ html,body {
 	top: 49%;
 	right: 33vw;
 	min-width: 27vw;
-	height: 667px;
+	height: 393px;
 }
   
   .main__blockimg {
@@ -358,7 +358,7 @@ html,body {
 	top: 49%;
 	right: 37.3vw;
 	min-width: 27vw;
-    height: 667px;
+    height: 393px;
 }
 
   .main__blockimg {
@@ -466,7 +466,7 @@ html,body {
 	top: 49%;
 	right: 33vw;
 	min-width: 33vw;
-	height: 667px;
+	height: 393px;
 }
   
   .main__blockimg {
@@ -574,7 +574,7 @@ html,body {
 	top: 49%;
 	right: 33vw;
 	min-width: 33vw;
-	height: 667px;
+	height: 393px;
 }
   
   .main__blockimg {
@@ -680,7 +680,7 @@ html,body {
 	top: 32vw;
 	right: 23vw;
 	width: 48vw;
-    height: 667px;
+    height: 393px;
 }
 
   .main__blockimg {
@@ -786,7 +786,7 @@ html,body {
 	top: 35vw;
 	right: 25vw;
 	min-width: 48vw;
-	height: 400px;
+	height: 393px;
 }
   
   .main__blockimg {
@@ -875,9 +875,9 @@ html,body {
   
   .main__button-phone {
     position: absolute;
-	margin-left: 25vw;
+	margin-left: 19vw;
 	width: 317px;
-	height: 549px;
+	height: 335px;
 	background:	url(img/iphonexs-mob.png) 2vw 35px no-repeat;
 }
 }
