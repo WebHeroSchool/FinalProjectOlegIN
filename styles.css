@@ -1252,9 +1252,8 @@ html,body {
 }
 
   .main__title {
-	margin: 7.3vw 0 18vw 12vw;
+	margin: 7.7vw 15vw 17.2vw 12vw;
 	text-align: center;
-	width: 73vw;
 	height: 94px;
 	font: bold 24px/31px 'pt_sans_caption', arial, helvetica, sans-serif;
 }
