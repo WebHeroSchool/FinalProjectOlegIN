@@ -142,7 +142,7 @@ html,body {
 	top: 52.3%;
 	right: 37.6vw;
 	min-width: 25vw;
-    height: 485px;
+    height: 465px;
 }
 
    .main__blockimg {
@@ -250,7 +250,7 @@ html,body {
 	top: 49%;
 	right: 33vw;
 	min-width: 27vw;
-	height: 393px;
+	height: 392px;
 }
   
   .main__blockimg {
@@ -358,7 +358,7 @@ html,body {
 	top: 49%;
 	right: 37.3vw;
 	min-width: 27vw;
-    height: 393px;
+    height: 392px;
 }
 
   .main__blockimg {
@@ -466,7 +466,7 @@ html,body {
 	top: 49%;
 	right: 33vw;
 	min-width: 33vw;
-	height: 393px;
+	height: 392px;
 }
   
   .main__blockimg {
@@ -481,115 +481,115 @@ html,body {
 	bottom: 0;
 }
 } 
-  
+
 /* разрешение от 1157 до 1170 */
 @media (min-width: 1157px) and (max-width: 1170px) {
-  .wrapper {
-    width: 80%;
-	height: 100px;
-	margin-top: 28px;
-	padding-left: 16vw;
-}
+	.wrapper {
+	  width: 85%;
+	  height: 100px;
+	  margin-top: 29px;
+	  padding-left: 10vw;
+  }
 	
-  .header {
-    display: flex;
-	position: relative;
-	justify-content: space-between;
-	margin-bottom: 0;
-}
+	.header {
+	  display: flex;
+	  position: relative;
+	  justify-content: space-between;
+	  margin-bottom: 0;
+  }
 	
-  .logo__img {
-    width: 111px;
-	height: 40px;
-	background: url(img/stack.svg) 98% 15px/60% no-repeat;
-}
+	.logo__img {
+	  width: 117px;
+	  height: 40px;
+	  background: url(img/stack.svg) 100% 15px/59% no-repeat;
+  }
 	
-  .logo__diamond {
-    position: absolute;
-	width: 22px;
-	height: 22px;
-	opacity: 0.5;
-	border-radius: 5px;
-	background: #ffbe4d;
-	transform: rotate(135deg);
-	left: 5px;
-	top: 13px;
-}
+	.logo__diamond {
+	  position: absolute;
+	  width: 22px;
+	  height: 22px;
+	  opacity: 0.5;
+	  border-radius: 5px;
+	  background: #ffbe4d;
+	  transform: rotate(135deg);
+	  left: 9px;
+	  top: 12px;
+  }
 	
-  .logo__diamond_color {
-    position: absolute;
-	width: 22px;
-	height: 22px;
-	opacity: 0.5;
-	border-radius: 5px;
-	background: #e89c38;
-	transform: rotate(135deg);
-	left: 10px;
-	top: 16px;
-}
+	.logo__diamond_color {
+	  position: absolute;
+	  width: 22px;
+	  height: 22px;
+	  opacity: 0.5;
+	  border-radius: 5px;
+	  background: #e89c38;
+	  transform: rotate(135deg);
+	  left: 12px;
+	  top: 16px;
+  }
 	
-  .menu {
-    display: flex;
-	align-items: center;
-	margin-right: 100px;
-}
+	.menu {
+	  display: flex;
+	  align-items: center;
+	  margin-bottom: 1px;
+  }
 	
-  .menu__item {
-    position: relative;
-	margin-top: 8.3%;
-	margin-right: 23px;
-	font: 700 14px/18px 'pt_sans_caption', arial, helvetica, sans-serif;
-	color: #000;
-	text-decoration: none;
-	transition: opacity 0.5s;
-}
-	
-  .menu__item:last-child {
-    margin-right: 1px;
-}
-	  
-  .main__title {
-    text-align: center;
-	margin: 26px 0 41px 22.5%;
-	width: 55vw;
-	font: 700 32px/41px 'pt_sans_caption', arial, helvetica, sans-serif;
-}
-	
-  .main__button {
-    background: url(img/apple-1366.png) no-repeat;
-	display: inline-block;
-	vertical-align: top;
-	min-width: 134px;
-	height: 44px;
-}
+	.menu__item {
+	  position: relative;
+	  margin-top: 8.3%;
+	  margin-right: 22px;
+	  font: 700 14px/18px 'pt_sans_caption', arial, helvetica, sans-serif;
+	  color: #000;
+	  text-decoration: none;
+	  transition: opacity 0.5s;
+  }
   
-  .main__button2 {
-    background: url(img/google-1366.png) no-repeat;
-	margin-left: 20px;	
-}
+	.menu__item:last-child {
+	  margin-right: 0;
+  }
   
-  .main__button-phone {
-    background:url(img/iphonexs-1366.png) no-repeat;
-	position: absolute;
-	top: 49%;
-	right: 33vw;
-	min-width: 33vw;
-	height: 393px;
-}
+   .main__title {
+	  text-align: center;
+	  margin: 25px 0 41px 17.5%;
+	  width: 65vw;
+	  font: 700 32px/41px 'pt_sans_caption', arial, helvetica, sans-serif;
+  }
   
-  .main__blockimg {
-    z-index: -1;
-	position: absolute;
-	box-sizing: border-box;
-	background: 
-	  url(img/groupl-1366.svg) left 23px no-repeat,
-	  url(img/groupr-1366.svg) right 0 no-repeat;
-	width: 100%;
-	height: 768px;
-	bottom: 0;
-}
-}  
-
+	.main__button {
+	  background: url(img/apple-1366.png) no-repeat;
+	  display: inline-block;
+	  vertical-align: top;
+	  width: 134px;
+	  height: 44px;
+  }
+  
+	.main__button2 {
+	  background: url(img/google-1366.png) no-repeat;
+	  margin-left: 20px;
+  }
+  
+	.main__button-phone {
+	  background:url(img/iphonexs-1366.png) no-repeat;
+	  position: absolute;
+	  top: 49%;
+	  right: 36%;
+	  width: 360px;
+	  height: 392px;
+  }
+  
+	.main__blockimg {
+	  z-index: -1;
+	  position: absolute;
+	  box-sizing: border-box;
+	  background:
+		url(img/groupl-1170.svg) left 0 no-repeat,
+		url(img/groupr-1170.svg) right 0 no-repeat;
+	  width: 100%;
+	  height: 768px;
+	  bottom: 0;
+  }
+  }  
+  
 /* разрешение от 952 до 1156 */
 @media (min-width: 952px) and (max-width: 1156px) {
   .wrapper {
@@ -680,7 +680,7 @@ html,body {
 	top: 32vw;
 	right: 23vw;
 	width: 48vw;
-    height: 393px;
+    height: 392px;
 }
 
   .main__blockimg {
@@ -786,7 +786,7 @@ html,body {
 	top: 35vw;
 	right: 25vw;
 	min-width: 48vw;
-	height: 393px;
+	height: 392px;
 }
   
   .main__blockimg {
@@ -802,8 +802,89 @@ html,body {
 }
 } 
 
-/* adoptation for mobile 549-768 */
-@media (min-width: 549px) and (max-width: 768px) {
+/* adoptation for mobile 640-768 */
+@media (min-width: 640px) and (max-width: 768px) {
+  .wrapper {
+	width: 70%;
+	margin-left: auto;
+	margin-right: 7%;
+}
+		   
+  .header {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	margin: 44% 0 0 18%;
+}
+	
+  .logo__img {
+	width: 200px;
+	height: 40px;
+	background: url(img/stack.svg) 50% center no-repeat;
+}
+	
+  .logo__diamond {
+    position: absolute;
+	width: 35px;
+	height: 35px;
+	opacity: 0.5;
+	border-radius: 5px;
+	background: #ffbe4d;
+	transform: rotate(135deg);
+	left: 0;
+	top: 0;
+}
+	
+  .logo__diamond_color {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	opacity: 0.5;
+	border-radius: 5px;
+	background: #e89c38;
+	transform: rotate(135deg);
+	left: 5px;
+	top: 3px;
+}
+	  
+  .menu {
+	display: none;
+}
+	
+  .main__title {
+	margin: 5% 20px 20px 20vw;
+	text-align: center;
+	width: 60vw;
+	height: 94px;
+	font: bold 24px/31px 'pt_sans_caption', arial, helvetica, sans-serif;
+}
+
+  .main__button {
+	position: relative;
+	background: url(img/apple-mob.png) no-repeat;
+	left: 0;
+	display: inline-block;
+	vertical-align: top;
+	width: 108px;
+	height: 36px;
+}
+	
+  .main__button2 {
+	background: url(img/google-mob.png) no-repeat;
+}
+	
+  .main__button-phone {
+	position: absolute;
+	top: 65vw;
+	margin-left: 26vw;
+	width: 55vw;
+	height: 335px;
+	background:	url(img/iphonexs-mob.png) no-repeat;
+}
+}
+
+/* adoptation for mobile 586-639 */
+@media (min-width: 586px) and (max-width: 639px) {
   .wrapper {
     width: 70%;
 	margin-left: auto;
@@ -852,9 +933,9 @@ html,body {
 }
   
   .main__title {
-    margin: 5% 20px 20px 30vw;
+    margin: 5vw 20px 20px 15vw;
     text-align: center;
-    width: 274px;
+    width: 450px;
 	height: 94px;
 	font: bold 24px/31px 'pt_sans_caption', arial, helvetica, sans-serif;
 }
@@ -874,7 +955,88 @@ html,body {
 }
   
   .main__button-phone {
-    position: absolute;
+	position: absolute;
+	top: 70vw;
+    margin-left: 22vw;
+	width: 55vw;
+	height: 335px;
+	background:	url(img/iphonexs-mob.png) no-repeat;
+}
+}
+
+/* adoptation for mobile 549-585 */
+@media (min-width: 549px) and (max-width: 585px) {
+  .wrapper {
+	width: 70%;
+	margin-left: auto;
+	margin-right: 7%;
+}
+		   
+  .header {
+    display: flex;
+	position: relative;
+	justify-content: space-between;
+	margin: 44% 0 0 18%;
+}
+	
+  .logo__img {
+	width: 200px;
+	height: 40px;
+	background: url(img/stack.svg) 50% center no-repeat;
+}
+	
+  .logo__diamond {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	opacity: 0.5;
+	border-radius: 5px;
+	background: #ffbe4d;
+	transform: rotate(135deg);
+	left: 0;
+	top: 0;
+}
+	
+  .logo__diamond_color {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	opacity: 0.5;
+	border-radius: 5px;
+	background: #e89c38;
+	transform: rotate(135deg);
+	left: 5px;
+	top: 3px;
+}
+	  
+  .menu {
+	display: none;
+}
+	
+  .main__title {
+    margin: 5% 20px 20px 30vw;
+    text-align: center;
+	width: 274px;
+	height: 94px;
+	font: bold 24px/31px 'pt_sans_caption', arial, helvetica, sans-serif;
+}
+	
+  .main__button {
+	position: relative;
+	background: url(img/apple-mob.png) no-repeat;
+	left: 0;
+	display: inline-block;
+	vertical-align: top;
+	width: 108px;
+	height: 36px;
+}
+	
+  .main__button2 {
+	background: url(img/google-mob.png) no-repeat;
+}
+	
+  .main__button-phone {
+	position: absolute;
 	margin-left: 19vw;
 	width: 317px;
 	height: 335px;
@@ -1111,9 +1273,8 @@ html,body {
 
   .main__button-phone {
 	background:url(img/iphonexs-mob.png) 0 no-repeat;
-	position: relative;
 	width: 89vw;
-    height: 280px;
+    height: 282px;
 }
 }
 
