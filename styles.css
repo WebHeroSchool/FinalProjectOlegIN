@@ -484,111 +484,111 @@ html,body {
 
 /* разрешение от 1157 до 1170 */
 @media (min-width: 1157px) and (max-width: 1170px) {
-	.wrapper {
-	  width: 85%;
-	  height: 100px;
-	  margin-top: 29px;
-	  padding-left: 10vw;
-  }
+  .wrapper {
+	width: 85%;
+	height: 100px;
+	margin-top: 29px;
+	padding-left: 10vw;
+}
 	
-	.header {
-	  display: flex;
-	  position: relative;
-	  justify-content: space-between;
-	  margin-bottom: 0;
-  }
+  .header {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	margin-bottom: 0;
+}
 	
-	.logo__img {
-	  width: 117px;
-	  height: 40px;
-	  background: url(img/stack.svg) 100% 15px/59% no-repeat;
-  }
+  .logo__img {
+	width: 117px;
+	height: 40px;
+	background: url(img/stack.svg) 100% 15px/59% no-repeat;
+}
 	
-	.logo__diamond {
-	  position: absolute;
-	  width: 22px;
-	  height: 22px;
-	  opacity: 0.5;
-	  border-radius: 5px;
-	  background: #ffbe4d;
-	  transform: rotate(135deg);
-	  left: 9px;
-	  top: 12px;
-  }
+  .logo__diamond {
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	opacity: 0.5;
+	border-radius: 5px;
+	background: #ffbe4d;
+	transform: rotate(135deg);
+	left: 9px;
+	top: 12px;
+}
 	
-	.logo__diamond_color {
-	  position: absolute;
-	  width: 22px;
-	  height: 22px;
-	  opacity: 0.5;
-	  border-radius: 5px;
-	  background: #e89c38;
-	  transform: rotate(135deg);
-	  left: 12px;
-	  top: 16px;
-  }
+  .logo__diamond_color {
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	opacity: 0.5;
+	border-radius: 5px;
+	background: #e89c38;
+	transform: rotate(135deg);
+	left: 12px;
+	top: 16px;
+}
 	
-	.menu {
-	  display: flex;
-	  align-items: center;
-	  margin-bottom: 1px;
-  }
+  .menu {
+	display: flex;
+	align-items: center;
+	margin-bottom: 1px;
+}
 	
-	.menu__item {
-	  position: relative;
-	  margin-top: 8.3%;
-	  margin-right: 22px;
-	  font: 700 14px/18px 'pt_sans_caption', arial, helvetica, sans-serif;
-	  color: #000;
-	  text-decoration: none;
-	  transition: opacity 0.5s;
-  }
+  .menu__item {
+	position: relative;
+	margin-top: 8.3%;
+	margin-right: 22px;
+	font: 700 14px/18px 'pt_sans_caption', arial, helvetica, sans-serif;
+	color: #000;
+	text-decoration: none;
+	transition: opacity 0.5s;
+}
   
-	.menu__item:last-child {
-	  margin-right: 0;
-  }
+  .menu__item:last-child {
+	margin-right: 0;
+}
   
-   .main__title {
-	  text-align: center;
-	  margin: 25px 0 41px 17.5%;
-	  width: 65vw;
-	  font: 700 32px/41px 'pt_sans_caption', arial, helvetica, sans-serif;
-  }
+  .main__title {
+	text-align: center;
+	margin: 25px 0 41px 17.5%;
+	width: 65vw;
+	font: 700 32px/41px 'pt_sans_caption', arial, helvetica, sans-serif;
+}
   
-	.main__button {
-	  background: url(img/apple-1366.png) no-repeat;
-	  display: inline-block;
-	  vertical-align: top;
-	  width: 134px;
-	  height: 44px;
-  }
+  .main__button {
+	background: url(img/apple-1366.png) no-repeat;
+	display: inline-block;
+	vertical-align: top;
+	width: 134px;
+	height: 44px;
+}
   
-	.main__button2 {
-	  background: url(img/google-1366.png) no-repeat;
-	  margin-left: 20px;
-  }
+  .main__button2 {
+	background: url(img/google-1366.png) no-repeat;
+	margin-left: 20px;
+}
   
-	.main__button-phone {
-	  background:url(img/iphonexs-1366.png) no-repeat;
-	  position: absolute;
-	  top: 49%;
-	  right: 36%;
-	  width: 360px;
-	  height: 392px;
-  }
+  .main__button-phone {
+	background:url(img/iphonexs-1366.png) no-repeat;
+	position: absolute;
+	top: 49%;
+	right: 36%;
+	width: 360px;
+	height: 392px;
+}
   
-	.main__blockimg {
-	  z-index: -1;
-	  position: absolute;
-	  box-sizing: border-box;
-	  background:
-		url(img/groupl-1170.svg) left 0 no-repeat,
-		url(img/groupr-1170.svg) right 0 no-repeat;
-	  width: 100%;
-	  height: 768px;
-	  bottom: 0;
-  }
-  }  
+  .main__blockimg {
+    z-index: -1;
+	position: absolute;
+	box-sizing: border-box;
+	background:
+	  url(img/groupl-1170.svg) left 0 no-repeat,
+	  url(img/groupr-1170.svg) right 0 no-repeat;
+	width: 100%;
+	height: 768px;
+	bottom: 0;
+}
+}  
   
 /* разрешение от 952 до 1156 */
 @media (min-width: 952px) and (max-width: 1156px) {
