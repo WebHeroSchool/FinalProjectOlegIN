@@ -1116,10 +1116,9 @@ html,body {
 }
   
   .main__button-phone {
-    margin-left: 2vw;
-	width: 317px;
+    width: 317px;
 	height: 549px;
-	background:	url(img/iphonexs-mob.png) 2vw 35px no-repeat;
+	background:	url(img/iphonexs-mob.png) 0 20vw no-repeat;
 }
 }
 
